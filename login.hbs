@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Login</title>
+     {{> header}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <div class="container h-100">
+     <div class="text-center">
+    <form action="/login" method="POST"> 
+    <h1 class="text-center ">Employee Login Form</h1>
+     <input type="email" name="email" required placeholder="Email Id*">   
+     <br>
+     <br>
+    <input type = "password" name="password" required placeholder="Password*">
+    <br>
+    <br>
+    <input  type="submit" class="btnRegister" value="Login">
+    <br><br>
+    <label class="checkbox pull-left mt-3"></label>
+     <input type="checkbox" value="remember-me">
+      Remember-me
+    </label>
+    <a href="#" >need help?</a><span class="clearfix"></span>
+</form>
+<a href="/register" class="text-center new account"> Create an account</a> 
+</div> 
+     </div>
+</body>
+</html>
+
+
+
+
+
+
+

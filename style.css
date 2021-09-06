@@ -1,0 +1,37 @@
+body{
+    color:seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding:0 16px;
+    font-size: medium;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 700px;
+    padding: 20px;
+  }
+input[type=button]{
+   margin-left: 70px;
+    color: darkmagenta;
+}
+input{
+  border-radius: 5px;
+
+}
+.head{
+  margin-left: 370px;
+}
+ a{
+  font-weight: bolder;
+  margin-top: 16px;
+  margin-bottom:50px;
+  color:cadetblue;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.indexes{
+  margin-left: 200px;
+}
